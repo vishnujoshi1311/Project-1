@@ -62,12 +62,90 @@
             <option>Large</option>
           </select>
           <input type="number" value="1">
-          <button>Add To cart</button>
+          <button class="normal">Add To cart</button>
           <h4>Product deatails</h4>
           <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ullam nam! Eum incidunt esse sapiente fugiat dolore cupiditate. Possimus repellat corrupti, itaque omnis a unde! Atque mollitia nemo fugit dolores?</span>
         </div>
       </section>
+       
+      <section id="product1" class="section-m1">
+        <h2>FEATURED PRODUCTS</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div class="Pro-container">
+          <div class="pro">
+                <img src="img/products/n1.jpg" alt="">
+                <div class="des">
+                  <span>adidas</span>
+                  <h5>Cartoon Astrount T-Shirts</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
 
+                  </div>
+                  <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+              </div>
+              <div class="pro">
+                <img src="img/products/n2.jpg" alt="">
+                <div class="des">
+                  <span>adidas</span>
+                  <h5>Cartoon Astrount T-Shirts</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                  </div>
+                  <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+              </div>
+              <div class="pro">
+                <img src="img/products/n3.jpg" alt="">
+                <div class="des">
+                  <span>adidas</span>
+                  <h5>Cartoon Astrount T-Shirts</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                  </div>
+                  <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+              </div>
+              <div class="pro">
+                <img src="img/products/n4.jpg" alt="">
+                <div class="des">
+                  <span>adidas</span>
+                  <h5>Cartoon Astrount T-Shirts</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                  </div>
+                  <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+              </div>
+              
+             
+              
+              
+        </div>
+      </section>
 
       <section id="newsletter" class="section-p1 section-m1">
         <div class="newstext">
@@ -129,6 +207,24 @@
           <p>2024, Tech2 etc - HTML CSS Ecommerce Template</p>
         </div>
       </footer>
+
+      <script>
+        var Mainimg = document.getElementById("Mainimg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+          Mainimg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+          Mainimg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+          Mainimg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+          Mainimg.src = smallimg[3].src;
+        }
+      </script>
 
 
 
